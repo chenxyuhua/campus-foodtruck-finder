@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BC82C4082D61749600AF35AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC82C3EF2D61749400AF35AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC82C3F62D61749400AF35AE;
+			remoteInfo = "campus-foodtruck-finder";
+		};
+		BC82C4122D61749600AF35AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC82C3EF2D61749400AF35AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC82C3F62D61749400AF35AE;
+			remoteInfo = "campus-foodtruck-finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC82C3F72D61749400AF35AE /* campus-foodtruck-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "campus-foodtruck-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC82C4072D61749600AF35AE /* campus-foodtruck-finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "campus-foodtruck-finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC82C4112D61749600AF35AE /* campus-foodtruck-finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "campus-foodtruck-finderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BC82C3F92D61749400AF35AE /* campus-foodtruck-finder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "campus-foodtruck-finder";
+			sourceTree = "<group>";
+		};
+		BC82C40A2D61749600AF35AE /* campus-foodtruck-finderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "campus-foodtruck-finderTests";
+			sourceTree = "<group>";
+		};
+		BC82C4142D61749600AF35AE /* campus-foodtruck-finderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "campus-foodtruck-finderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC82C3F42D61749400AF35AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82C4042D61749600AF35AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82C40E2D61749600AF35AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC82C3EE2D61749400AF35AE = {
+			isa = PBXGroup;
+			children = (
+				BC82C3F92D61749400AF35AE /* campus-foodtruck-finder */,
+				BC82C40A2D61749600AF35AE /* campus-foodtruck-finderTests */,
+				BC82C4142D61749600AF35AE /* campus-foodtruck-finderUITests */,
+				BC82C3F82D61749400AF35AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC82C3F82D61749400AF35AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC82C3F72D61749400AF35AE /* campus-foodtruck-finder.app */,
+				BC82C4072D61749600AF35AE /* campus-foodtruck-finderTests.xctest */,
+				BC82C4112D61749600AF35AE /* campus-foodtruck-finderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC82C3F62D61749400AF35AE /* campus-foodtruck-finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC82C41B2D61749600AF35AE /* Build configuration list for PBXNativeTarget "campus-foodtruck-finder" */;
+			buildPhases = (
+				BC82C3F32D61749400AF35AE /* Sources */,
+				BC82C3F42D61749400AF35AE /* Frameworks */,
+				BC82C3F52D61749400AF35AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BC82C3F92D61749400AF35AE /* campus-foodtruck-finder */,
+			);
+			name = "campus-foodtruck-finder";
+			packageProductDependencies = (
+			);
+			productName = "campus-foodtruck-finder";
+			productReference = BC82C3F72D61749400AF35AE /* campus-foodtruck-finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC82C4062D61749600AF35AE /* campus-foodtruck-finderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC82C41E2D61749600AF35AE /* Build configuration list for PBXNativeTarget "campus-foodtruck-finderTests" */;
+			buildPhases = (
+				BC82C4032D61749600AF35AE /* Sources */,
+				BC82C4042D61749600AF35AE /* Frameworks */,
+				BC82C4052D61749600AF35AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC82C4092D61749600AF35AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC82C40A2D61749600AF35AE /* campus-foodtruck-finderTests */,
+			);
+			name = "campus-foodtruck-finderTests";
+			packageProductDependencies = (
+			);
+			productName = "campus-foodtruck-finderTests";
+			productReference = BC82C4072D61749600AF35AE /* campus-foodtruck-finderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC82C4102D61749600AF35AE /* campus-foodtruck-finderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC82C4212D61749600AF35AE /* Build configuration list for PBXNativeTarget "campus-foodtruck-finderUITests" */;
+			buildPhases = (
+				BC82C40D2D61749600AF35AE /* Sources */,
+				BC82C40E2D61749600AF35AE /* Frameworks */,
+				BC82C40F2D61749600AF35AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC82C4132D61749600AF35AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC82C4142D61749600AF35AE /* campus-foodtruck-finderUITests */,
+			);
+			name = "campus-foodtruck-finderUITests";
+			packageProductDependencies = (
+			);
+			productName = "campus-foodtruck-finderUITests";
+			productReference = BC82C4112D61749600AF35AE /* campus-foodtruck-finderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC82C3EF2D61749400AF35AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BC82C3F62D61749400AF35AE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BC82C4062D61749600AF35AE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BC82C3F62D61749400AF35AE;
+					};
+					BC82C4102D61749600AF35AE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BC82C3F62D61749400AF35AE;
+					};
+				};
+			};
+			buildConfigurationList = BC82C3F22D61749400AF35AE /* Build configuration list for PBXProject "campus-foodtruck-finder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC82C3EE2D61749400AF35AE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BC82C3F82D61749400AF35AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC82C3F62D61749400AF35AE /* campus-foodtruck-finder */,
+				BC82C4062D61749600AF35AE /* campus-foodtruck-finderTests */,
+				BC82C4102D61749600AF35AE /* campus-foodtruck-finderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC82C3F52D61749400AF35AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82C4052D61749600AF35AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82C40F2D61749600AF35AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC82C3F32D61749400AF35AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82C4032D61749600AF35AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82C40D2D61749600AF35AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC82C4092D61749600AF35AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC82C3F62D61749400AF35AE /* campus-foodtruck-finder */;
+			targetProxy = BC82C4082D61749600AF35AE /* PBXContainerItemProxy */;
+		};
+		BC82C4132D61749600AF35AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC82C3F62D61749400AF35AE /* campus-foodtruck-finder */;
+			targetProxy = BC82C4122D61749600AF35AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC82C4192D61749600AF35AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC82C41A2D61749600AF35AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC82C41C2D61749600AF35AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"campus-foodtruck-finder/Preview Content\"";
+				DEVELOPMENT_TEAM = FC47US8TKH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuhua.campus-foodtruck-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC82C41D2D61749600AF35AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"campus-foodtruck-finder/Preview Content\"";
+				DEVELOPMENT_TEAM = FC47US8TKH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuhua.campus-foodtruck-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC82C41F2D61749600AF35AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FC47US8TKH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuhua.campus-foodtruck-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/campus-foodtruck-finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/campus-foodtruck-finder";
+			};
+			name = Debug;
+		};
+		BC82C4202D61749600AF35AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FC47US8TKH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuhua.campus-foodtruck-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/campus-foodtruck-finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/campus-foodtruck-finder";
+			};
+			name = Release;
+		};
+		BC82C4222D61749600AF35AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FC47US8TKH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuhua.campus-foodtruck-finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "campus-foodtruck-finder";
+			};
+			name = Debug;
+		};
+		BC82C4232D61749600AF35AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FC47US8TKH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuhua.campus-foodtruck-finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "campus-foodtruck-finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC82C3F22D61749400AF35AE /* Build configuration list for PBXProject "campus-foodtruck-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82C4192D61749600AF35AE /* Debug */,
+				BC82C41A2D61749600AF35AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC82C41B2D61749600AF35AE /* Build configuration list for PBXNativeTarget "campus-foodtruck-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82C41C2D61749600AF35AE /* Debug */,
+				BC82C41D2D61749600AF35AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC82C41E2D61749600AF35AE /* Build configuration list for PBXNativeTarget "campus-foodtruck-finderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82C41F2D61749600AF35AE /* Debug */,
+				BC82C4202D61749600AF35AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC82C4212D61749600AF35AE /* Build configuration list for PBXNativeTarget "campus-foodtruck-finderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82C4222D61749600AF35AE /* Debug */,
+				BC82C4232D61749600AF35AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC82C3EF2D61749400AF35AE /* Project object */;
+}
