@@ -1,28 +1,7 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "tinted"
-        }
-      ],
+      "filename" : "DALL·E 2024-04-21 23.59.32 - Create three colorful, minimalist square images of a food truck, each with different color schemes. Each truck should be depicted with a simple, clean 2 (1).jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
